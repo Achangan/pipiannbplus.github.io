@@ -1,0 +1,53 @@
+
+.header{
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+h2{
+    text-align: center;
+    background-color:#666;
+    color: white; 
+}
+button{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.image{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.footer{
+    margin: 0 auto;
+    width: 100%;
+}
+.footer ul{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+.footer li{
+    display: inline;
+}
+.footer li a{
+    text-decoration: none;
+    color: #6e6568;
+}
+.footer img{
+    width: 16px;
+    height: auto;
+}
+
+.footer p{
+    text-align: center;
+}
+.a2{
+    display: block;
+}

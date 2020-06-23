@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>响应式</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .madel{
+            background-color: #888888;
+            z-index: 1;
+        }
+        .frist-btn{
+            background-color: #333333;
+            color: #cccccc;
+            padding: 8px 24px;
+            cursor: pointer;
+        }
+        .madel-nei{
+            background-color:#cccccc;
+            max-width: 800px;
+            margin: 0 auto;
+            display: none;
+        }
+        .madel-heading:after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .madel-h{
+            margin: 12px 16px;
+            font-weight: 400;
+            display: inline-block;
+        }
+        .madel-close{
+            float: right;
+            border: none;
+            background: #333333;
+            color: #cccccc;
+            padding: 6px 8px;
+            cursor: pointer;
+        }
+        .madel-inner{
+            background: #cccccc;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .madel-foot{
+            text-align: right;
+        }
+        .close-btn, .ok-btn{
+            border: none;
+            background-color: #cccccc;
+            color: rgba(0,0,0,0.7);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<div class="madel">
+    <button class="frist-btn" onclick="openMadelnei()">Open</button>
+    <div id="madel-nei" class="madel-nei">
+        <div class="madel-heading">
+            <h2 class="madel-h">开始</h2>
+            <button class="madel-close" onclick="closeMadelnei()">×</button>
+        </div>
+        <div class="madel-inner">
+            <p>新华社北京5月14日电  中共中央政治局常务委员会5月14日召开会议，分析国内外新冠肺炎疫情防控形势，研究部署抓好常态化疫情防控措施落
+                地见效，研究提升产业链供应链稳定性和竞争力。中共中央总书记习近平主持会议并发表重要讲话。
+                习近平指出，当前全国疫情防控形势总体是好的，同时境外疫情形势严峻复杂，国内防范疫情反弹任务仍然艰巨繁重。要坚决克服麻痹思想、厌战情绪、侥幸心理、松劲心态，持续抓紧抓实抓细外防输入、内防反弹工作，决不能让来之不易的疫情防控成果前功尽弃，确保完成决战决胜脱贫攻坚目标任务，全面建成小康社会。
+            </p>
+            <img src="https://images.unsplash.com/photo-1587613752723-b7c4a7603f25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+            <p>新华社北京5月14日电  中共中央政治局常务委员会5月14日召开会议，分析国内外新冠肺炎疫情防控形势，研究部署抓好常态化疫情防控措施落
+                地见效，研究提升产业链供应链稳定性和竞争力。中共中央总书记习近平主持会议并发表重要讲话。
+                习近平指出，当前全国疫
+            </p>
+        </div>
+        <div class="madel-foot">
+            <button class="close-btn" onclick="closeMadelnei()">COLSE</button>
+            <button class="ok-btn">OK</button>
+        </div>
+        <script>
+            function openMadelnei() {
+                var madels = document.getElementById('madel-nei');
+                madels.style.display = "block";
+            }
+            function closeMadelnei() {
+                var madels = document.getElementById('madel-nei');
+                madels.style.display = "none";
+            }
+        </script>
+
+    </div>
+</div>
+</body>
+</html>

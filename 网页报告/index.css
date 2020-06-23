@@ -1,0 +1,125 @@
+body{
+    line-height: 1.7;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    top: 0;
+    background-color: #888888;
+}
+nav a {
+    width: 25%;
+    border-right: #cccccc 1px solid;
+    text-align: center;
+    color: #cccccc;
+    text-decoration: none;
+    cursor: pointer;
+}
+.slideshow{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 100%;
+    position: center;
+
+}
+.slideshow img{
+    width: 100%;
+    height: 400px;
+
+}
+.main{
+    width: 100%;
+}
+.our h2{
+    text-align: center;
+}
+.our .intro{
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    background-color: #cccccc;
+}
+.our .member{
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    background-color: #888888;
+}
+.our .good{
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    background-color: #666666;
+}
+.our h3{
+    text-align: center;
+}
+
+.card {
+    margin-top: 64px;
+}
+
+.card-s{
+    position: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.card h2{
+    text-align: center;
+}
+.chang{
+    padding: 0 16px;
+    width: 30%;
+    display: inline-block;
+}
+.chang img{
+    width: 100%;
+    height: 100%;
+}
+.relation{
+    margin-bottom: 350px;
+}
+.relation form{
+    width: 100%;
+    position: absolute;
+    left: 450px;
+}
+.relation h2{
+    text-align: center;
+}
+.button{
+    background-color: aqua;
+    color: #333333;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.footer{
+    margin: 0 auto;
+    width: 100%;
+}
+.footer ul{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+.footer li{
+    display: inline;
+}
+.footer li a{
+    text-decoration: none;
+    color: #6e6568;
+}
+.footer img{
+    width: 16px;
+    height: auto;
+}
+
+.footer p{
+    text-align: center;
+}
+.a2{
+    display: block;
+}
